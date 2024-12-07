@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+    <Button
+        android:id="@+id/connectButton"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:text="Connect"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:onClick="onConnectButtonClicked"/>
+    <Button
+        android:id="@+id/modeButton"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:text="Clock"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onModeButtonClicked"/>
+    <Button
+    android:id="@+id/sendButton"
+    android:layout_width="160dp"
+    android:layout_height="60dp"
+    android:text="Send"
+    android:layout_gravity="center_horizontal"
+    android:onClick="onSendButtonClicked"/>
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="300dp"
+        android:layout_height="600dp"
+        android:layout_gravity="center" />
+
+<!--        android:layout_gravity="center"-->
+
+</LinearLayout>
